@@ -1,4 +1,4 @@
-$(function() {
+$(function()  {
 
     $('.navbar-toggle').click(function() {
         $(this).toggleClass('act');
@@ -9,6 +9,8 @@ $(function() {
                 $('.main-menu').removeClass('act');
             }
     });
+
+
 
     //jQuery for page scrolling feature - requires jQuery Easing plugin
     $(document).on('click', '.page-scroll a', function(event) {
